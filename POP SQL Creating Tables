@@ -1,0 +1,14 @@
+CREATE TABLE Alex (
+    student_id INT,
+    name VARCHAR(20),
+    major VARCHAR(20),
+    PRIMARY KEY(student_id)
+);
+
+DESCRIBE Alex;
+
+DROP TABLE Alex;
+
+ALTER TABLE Alex ADD gpa DECIMAL(3, 2);
+
+ALTER TABLE Alex DROP COLUMN gpa;
